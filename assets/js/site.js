@@ -59,9 +59,25 @@
     ["Logo_CreativeAchievAcademy.jpg", "Creative Achievements Academy"]
   ];
 
+  /* Member website links (from the original site) */
+  var MEMBER_LINKS = {
+    "Samuel Coraluzzo Co.": "http://www.coraluzzo.com/",
+    "The Espoma Co.": "http://www.espoma.com/",
+    "Franklin Insurance / FIA Group": "http://www.franklininsuranceadjusters.com/",
+    "F&S Produce Co.": "http://www.freshcutproduce.com/",
+    "Nardelli Bros.": "http://www.nardellibrosinc.com/",
+    "Arthur J. Ogren, Inc.": "http://www.ogrenconstruction.com/",
+    "Magnolia Investments": "http://www.rfccontainer.com/",
+    "Rossi Motors, Inc.": "http://www.rossihonda.com/",
+    "Wallace Supply Co.": "http://www.wallace-supply.com/",
+    "ComTec Systems": "https://comtecsystems.net/",
+    "Toyota of Vineland": "https://www.toyotaofvineland.com/",
+    "Bradway Trucking, Inc.": "http://www.bradwaytrucking.com/"
+  };
+
   /* ---------- Data: charitable giving timeline ---------- */
   var IMPACT = [
-    ["2020–21", "<b>$25,000</b> to the “School Counts!” scholarship program at the Cumberland County Campus Educational Foundation, Rowan College of South Jersey."],
+    ["2020-21", "<b>$25,000</b> to the “School Counts!” scholarship program at the Cumberland County Campus Educational Foundation, Rowan College of South Jersey."],
     ["April 2020", "<b>$30,000</b> in food deliveries to Inspira Health hospitals in Vineland, Bridgeton, and Elmer during the height of the pandemic."],
     ["November 2019", "<b>$6,000</b> to Cumberland County Technical School and a fourth consecutive <b>$6,000</b> to its SkillsUSA, HOSA, and Robotics clubs."],
     ["2018", "<b>$6,000</b> to Cumberland County Technical School, plus gifts to Manna from Heaven and the Salvation Army's Project Thanksgiving."],
@@ -75,28 +91,27 @@
     ["2010", "The Dream Foundation."]
   ];
 
-  /* ---------- Data: in the news ---------- */
-  var BASE = "https://www.theceogroup.org/";
+  /* ---------- Data: in the news ---------- [category, year, title, excerpt, page-slug] ---------- */
   var NEWS = [
-    ["Donation", "Toyota of Vineland & the CEO Group donate $25,000 to the Cumberland County Campus Educational Foundation for the “School Counts!” scholarship program.", "CEO Group Donates to the Campus Educational Foundation", "tov_cctech_donates/"],
-    ["Community", "The CEO Group funds $30,000 in meals delivered to Inspira Health hospitals for staff during the COVID-19 pandemic.", "CEO Group Provides Meals for Inspira Health", "vineland-business-group-spending-30k-on-meals-to-hospitals/"],
-    ["Honors", "Bob and Peter Unanue of Goya Foods are honored with the CEO Group's Spirit of Francis Award.", "Goya Foods' Unanue Brothers Earn the Spirit of Francis Award", "goya_foods_spirit_of_francis/"],
-    ["Honors", "Executive Director Louis N. Magazzu is recognized by the NAACP for his service to the community.", "Lou Magazzu Honored by the NAACP", "lou-magazzu-naacp/"],
-    ["Honors", "Premier Orthopaedic's Dr. Thomas A. Dwyer is celebrated as a Cumberland County legend.", "Dr. Thomas Dwyer Honored as a Cumberland County Legend", "dr-thomas-dwyer-honor-cumberland-county-legend/"],
-    ["Honors", "Sandra Forosisky and member Robert Penza are named Italian Heritage Award winners.", "Forosisky & Penza Named Italian Heritage Award Winners", "italianheritage/"],
-    ["Donation", "Inspira receives a $50,000 donation supporting the M25 Initiative Code Blue program.", "Inspira Receives $50K for the M25 Initiative", "inspira_m25_initiative/"],
-    ["Community", "Member Bob Conner of Mints Insurance is named a Pride in Millville recipient.", "Bob Conner Named a Pride in Millville Recipient", "in-the-news-bob-conner-named-pride-in-millville-recipient-to-be-honored-at-may-9-celebration-at-ccc/"],
-    ["Community", "The CEO Group supports the JAWS Youth Playbook bike drive for area children.", "JAWS Youth Playbook Bike Drive", "in-the-news-jaws-bike-drive/"],
-    ["Community", "Member Sam Sorbello honors his late wife in the fight against breast cancer.", "Sam Sorbello Honors Late Wife in Fight Against Cancer", "sam_sorbello_fight_cancer/"],
-    ["Business", "The Espoma Company deepens its roots with expanded operations in Millville.", "Espoma Deepens Its Roots in Millville", "espoma_millville/"],
-    ["Health", "Inspira opens a new detox and addiction treatment unit serving the region.", "Inspira Opens New Detox & Addiction Treatment Unit", "inspira_detox_unit/"],
-    ["Health", "A new senior emergency department comes to the region with member support.", "Rossi Senior Emergency Department", "rossi-senior-emergency-dept/"],
-    ["Business", "F&S Produce Co. purchases the former Progresso plant in Vineland.", "F&S Produce Purchases the Vineland Progresso Plant", "fs-produce-purchases-progresso/"],
-    ["Business", "New Landis Square Senior Apartments bring quality housing to the area.", "Landis Square Senior Apartments", "landis_square_senior_apartments/"],
-    ["Business", "A new plastics manufacturing facility opens in Millville.", "New Millville Plastics Facility", "millville_plastics_facility/"],
-    ["Business", "Rossi Honda of Vineland is recognized as a 2018 Energy Efficiency Leader.", "Rossi Honda — 2018 Energy Efficiency Leader", "tov_cctech_donates/congratulations-on-being-a-2018-energy-efficiency-leader/"],
-    ["Milestone", "How The CEO Group was created to enhance opportunities across the region.", "“The CEO Group” Created to Enhance Area Opportunities", "created-enhance-opportunities/"],
-    ["Milestone", "The CEO Group raises over $40,000 for community causes in a single year.", "CEO Group Raises Over $40,000", "ceo-group-raises-40000/"]
+    ["Donation", "2018", "Toyota of Vineland & RK Auto Donate to County Tech", "Burns-Kull Automotive Group and Toyota Motor Sales gave $10,000 to the Cumberland County Technical Education Center for automotive-technology scholarships and equipment.", "county-tech-automotive"],
+    ["Community", "2020", "CEO Group Provides Meals for Inspira Health", "The group funded $30,000 in restaurant meals delivered to staff at Inspira's Vineland, Bridgeton, and Elmer hospitals during the pandemic.", "meals-for-inspira"],
+    ["Honors", "2018", "Goya Foods' Unanue Brothers Earn the Spirit of Francis Award", "Bob and Peter Unanue were honored as the CEO Group's One Cumberland campaign delivered $18,000 to the Spirit of Francis fund benefiting Puerto Rico.", "goya-spirit-of-francis"],
+    ["Honors", "", "Lou Magazzu Honored by the NAACP", "Executive Director Louis N. Magazzu was recognized by the NAACP for his service to the community.", "magazzu-naacp"],
+    ["Honors", "2020", "Dr. Thomas Dwyer Honored as a Cumberland County Legend", "Premier Orthopaedic's Dr. Thomas A. Dwyer was named a Cumberland County Legend by the CompleteCare Family Health Foundation.", "dwyer-county-legend"],
+    ["Honors", "2018", "Forosisky & Penza Named Italian Heritage Honorees", "Sandra Zagari Forosisky and member Robert A. Penza received the Italian Cultural Foundation of South Jersey's Spirit of Achievement Award.", "italian-heritage"],
+    ["Donation", "2018", "Inspira Receives $50K for the M25 Initiative", "A second $50,000 gift brought funding for the M25 Initiative's Housing First Collaborative to $100,000 to combat chronic homelessness.", "inspira-m25"],
+    ["Community", "2019", "Bob Conner Named a Pride in Millville Recipient", "Mints Insurance owner and member Bob Conner received the Greater Millville Chamber of Commerce's 2019 Pride in Millville award.", "conner-pride-millville"],
+    ["Community", "2018", "JAWS Youth Playbook Bike Drive", "The CEO Group supported Ron Jaworski's JAWS Youth Playbook and its bike drive for children across the region.", "jaws-bike-drive"],
+    ["Community", "2018", "Sam Sorbello Honors Late Wife in Fight Against Cancer", "Member Sam Sorbello funded the Colleen Sorbello Research Laboratory at the University of New Haven in memory of his late wife.", "sorbello-cancer-research"],
+    ["Business", "2018", "Espoma Deepens Its Roots in Millville", "The family-owned organic fertilizer maker opened a new Millville headquarters featuring a 672-plant living green wall.", "espoma-millville"],
+    ["Health", "2018", "Inspira Opens New Detox & Addiction Treatment Unit", "Inspira Health Center Bridgeton dedicated an inpatient acute detox and addiction treatment center serving five counties.", "inspira-detox"],
+    ["Health", "2017", "The Rossi Senior Emergency Department Opens", "The $6 million Rose and Graziano Rossi Senior Emergency Department opened at Inspira Medical Center Vineland, funded in part by member Ron Rossi.", "rossi-senior-ed"],
+    ["Business", "2017", "F&S Produce Purchases the Vineland Progresso Plant", "F&S Produce bought the former Progresso soup plant, a 585,000-square-foot facility, with plans to add dozens of jobs.", "fs-produce-progresso"],
+    ["Business", "2018", "Landis Square Senior Apartments Open", "Member Hans Lampart opened Landis Square, a 74-unit affordable housing community for seniors in Vineland.", "landis-square"],
+    ["Business", "2018", "New Millville Plastics Facility Planned", "A plan to develop a plastics reprocessing facility at the former Wheaton Glass site aimed to create hundreds of jobs.", "millville-plastics"],
+    ["Business", "2018", "Rossi Honda Named a 2018 Energy Efficiency Leader", "Rossi Honda of Vineland was one of just 33 U.S. dealerships recognized by Honda's Green Dealer Program for energy performance.", "rossi-honda-energy"],
+    ["Milestone", "1996", "The CEO Group Is Created to Enhance Area Opportunities", "Founded by Francis J. Reilly, the group united the region's chief executives to advance Cumberland County's prosperity.", "ceo-group-founded"],
+    ["Milestone", "", "CEO Group Raises Over $40,000", "A CEO Group fundraising effort raised more than $40,000 for community causes across the region.", "ceo-group-raises-40000"]
   ];
 
   /* ---------- Data: notable guest speakers ---------- */
@@ -105,10 +120,10 @@
     ["2010", "Ron Jaworski", "NFL quarterback & ESPN analyst"],
     ["2009", "Christopher Gardner", "Author, “The Pursuit of Happyness”"],
     ["2009", "James J. Florio", "Former Governor of New Jersey"],
-    ["multiple", "Stephen M. Sweeney", "NJ Senate President"],
-    ["multiple", "Frank A. LoBiondo", "U.S. Congressman, 2nd District"],
+    ["2006, 2009, 2014, 2018", "Stephen M. Sweeney", "NJ Senate President"],
+    ["1997, 2001, 2003, 2008, 2012, 2014", "Frank A. LoBiondo", "U.S. Congressman, 2nd District"],
     ["2017", "Kim Guadagno", "Lt. Governor of New Jersey"],
-    ["multiple", "Jeff Van Drew", "U.S. Congressman / NJ State Senator"]
+    ["2002, 2006, 2018, 2019, 2020", "Jeff Van Drew", "U.S. Congressman / NJ State Senator"]
   ];
 
   /* ---------- Data: guest speakers by year ---------- */
@@ -163,13 +178,18 @@
   function $all(sel, ctx) { return Array.prototype.slice.call((ctx || document).querySelectorAll(sel)); }
 
   /* ---------- Renderers ---------- */
+  function buildCell(m) {
+    var url = MEMBER_LINKS[m[1]];
+    var c = el(url ? "a" : "div", "logo-cell"); c.title = m[1];
+    if (url) { c.href = url; c.target = "_blank"; c.rel = "noopener"; c.setAttribute("aria-label", m[1] + " (opens in a new tab)"); }
+    var img = el("img"); img.src = "assets/img/" + m[0]; img.alt = m[1]; img.loading = "lazy";
+    c.appendChild(img); return c;
+  }
   function renderMembers() {
-    var grid = $("#logoGrid"); if (!grid) return;
-    MEMBERS.forEach(function (m) {
-      var c = el("div", "logo-cell"); c.title = m[1];
-      var img = el("img"); img.src = "assets/img/" + m[0]; img.alt = m[1]; img.loading = "lazy";
-      c.appendChild(img); grid.appendChild(c);
-    });
+    var grid = $("#logoGrid");
+    if (grid) MEMBERS.forEach(function (m) { grid.appendChild(buildCell(m)); });
+    var track = $("#logoTrack"); // home carousel: duplicate the set for a seamless loop
+    if (track) MEMBERS.concat(MEMBERS).forEach(function (m) { track.appendChild(buildCell(m)); });
   }
 
   function renderTimeline() {
@@ -183,10 +203,11 @@
     var grid = $("#newsGrid"); if (!grid) return;
     NEWS.forEach(function (n, idx) {
       var card = el("a", "news-card reveal" + (idx % 2 ? " d1" : ""));
-      card.href = BASE + n[3]; card.target = "_blank"; card.rel = "noopener";
+      card.href = "news-" + n[4] + ".html";
+      var meta = '<span class="news-cat' + (n[0] === "Milestone" || n[0] === "Honors" ? " alt" : "") + '">' + n[0] + '</span>' + (n[1] ? '<span class="news-date">' + n[1] + '</span>' : '');
       card.innerHTML =
-        '<div class="news-meta"><span class="news-cat' + (n[0] === "Milestone" || n[0] === "Honors" ? " alt" : "") + '">' + n[0] + '</span></div>' +
-        '<h3>' + n[2] + '</h3><p>' + n[1] + '</p>' +
+        '<div class="news-meta">' + meta + '</div>' +
+        '<h3>' + n[2] + '</h3><p>' + n[3] + '</p>' +
         '<span class="more">Read the story <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>';
       grid.appendChild(card);
     });
@@ -195,8 +216,10 @@
   function renderNotable() {
     var grid = $("#notableGrid"); if (!grid) return;
     NOTABLE.forEach(function (s) {
+      var parts = s[1].split(/\s+/);
+      var initials = (parts[0].charAt(0) + parts[parts.length - 1].charAt(0)).toUpperCase();
       var c = el("div", "notable reveal");
-      c.innerHTML = '<div class="yr">' + s[0] + '</div><h4>' + s[1] + '</h4><p>' + s[2] + '</p>';
+      c.innerHTML = '<div class="avatar">' + initials + '</div><span class="yr">' + s[0] + '</span><h4>' + s[1] + '</h4><p>' + s[2] + '</p>';
       grid.appendChild(c);
     });
   }
@@ -204,10 +227,10 @@
   function renderSpeakers() {
     var host = $("#speakerYears"); if (!host) return;
     SPEAKERS.forEach(function (yr, i) {
-      var d = el("details", "spk-year"); if (i === 0) d.open = true;
+      var d = el("details", "spk-year"); d.setAttribute("name", "speakers"); if (i === 0) d.open = true;
       var names = yr[1].map(function (n) {
         var parts = n.split(" — ");
-        return parts.length > 1 ? '<li><b>' + parts[0] + '</b> <span>— ' + parts[1] + '</span></li>' : '<li><b>' + n + '</b></li>';
+        return parts.length > 1 ? '<li><b>' + parts[0] + '</b><span>, ' + parts[1] + '</span></li>' : '<li><b>' + n + '</b></li>';
       }).join("");
       d.innerHTML =
         '<summary><span>' + yr[0] + '</span><span class="yc">' + yr[1].length + ' speakers</span>' +
@@ -215,6 +238,12 @@
         '<ul class="spk-names">' + names + '</ul>';
       host.appendChild(d);
     });
+    // Single-open accordion (fallback for browsers without <details name>)
+    host.addEventListener("toggle", function (e) {
+      if (e.target.tagName === "DETAILS" && e.target.open) {
+        $all("details[open]", host).forEach(function (o) { if (o !== e.target) o.open = false; });
+      }
+    }, true);
   }
 
   /* ---------- Photo galleries + lightbox ---------- */

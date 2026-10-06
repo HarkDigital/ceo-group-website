@@ -141,7 +141,7 @@ section.tight{padding:4.5rem 0}
 .prose h3{font-size:1.5rem;text-transform:uppercase;margin:2.2rem 0 .8rem}
 .prose ul{margin:0 0 1.2rem 0;list-style:none}
 .prose ul li{padding-left:1.5rem;position:relative;margin-bottom:.55rem;color:#33383d}
-.prose ul li::before{content:"";position:absolute;left:0;top:.6em;width:8px;height:8px;background:var(--red);clip-path:polygon(50% 0,100% 100%,0 100%)}
+.prose ul li::before{content:"";position:absolute;left:0;top:.6em;width:8px;height:8px;background:var(--red);clip-path:polygon(0 0,100% 50%,0 100%)}
 
 /* Pillars */
 .pillars{background:var(--paper)}
@@ -179,7 +179,7 @@ section.tight{padding:4.5rem 0}
 .trustees h3{font-size:.82rem;text-transform:uppercase;letter-spacing:.12em;font-weight:800;color:var(--ink);margin-bottom:1.4rem}
 .trustee-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem 2rem;list-style:none}
 .trustee-list li{padding-left:1.3rem;position:relative;font-size:.94rem}
-.trustee-list li::before{content:"";position:absolute;left:0;top:.6em;width:8px;height:8px;background:var(--red);clip-path:polygon(50% 0,100% 100%,0 100%)}
+.trustee-list li::before{content:"";position:absolute;left:0;top:.6em;width:8px;height:8px;background:var(--red);clip-path:polygon(0 0,100% 50%,0 100%)}
 .trustee-list li b{font-weight:700;display:block}
 .trustee-list li span{font-size:.83rem;color:var(--slate)}
 

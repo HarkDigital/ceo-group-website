@@ -80,11 +80,11 @@
     ["Richard Allen", "Allen Associates", "Vineland"],
     ["John Barretta", "Barretta Plumbing, Heating, Cooling", "Vineland"],
     ["Stephen Barse, Esq.", "Law Office of Stephen D. Barse, LLC", "Vineland"],
-    ["Sharon Baxter", "", "Vineland", "Honorary member"],
-    ["Melvin Bradway", "Bradway Trucking, Inc.", "Vineland", "Honorary member"],
+    ["Sharon Baxter", "", "Vineland"],
+    ["Melvin Bradway", "Bradway Trucking, Inc.", "Vineland"],
     ["Thomas Brady", "Industrial Packaging, Inc.", "Millville"],
     ["Serge Brunner", "The Espoma Co.", "Millville"],
-    ["Sharon Bruno", "Creative Achievement Academy, Inc.", "Vineland", "Honorary member"],
+    ["Sharon Bruno", "Creative Achievement Academy, Inc.", "Vineland"],
     ["Brett Buonadonna", "Integrity Wealth Group", "Vineland"],
     ["David Catalana", "Innovation Foods LLC", "Millville"],
     ["Bob Conner", "Mints Insurance", "Millville"],
@@ -131,7 +131,7 @@
     ["Dr. Brendan Rickards", "Rowan College of South Jersey", "Vineland"],
     ["Bruce Riley", "Ultra Clean Technologies Corp.", "Bridgeton"],
     ["Paul J. Ritter III", "Cumberland Insurance Group", "Bridgeton"],
-    ["Ronald G. Rossi", "Rossi Motors, Inc.", "Vineland", "Honorary member"],
+    ["Ronald G. Rossi", "Rossi Motors, Inc.", "Vineland"],
     ["Ed Roth", "Tower Hospitality, LLC", "Vineland"],
     ["John Ruga", "Northeast Precast", "Vineland"],
     ["Kim Schalek", "Salmon Ventures LTD", "Millville"],
@@ -157,27 +157,27 @@
     ["2010", "The Dream Foundation."]
   ];
 
-  /* ---------- Data: in the news ---------- [category, year, title, excerpt, page-slug] ---------- */
+  /* ---------- Data: in the news ---------- [category, year, title, excerpt, page-slug], newest first ---------- */
   var NEWS = [
-    ["Donation", "2018", "Toyota of Vineland & RK Auto Donate to County Tech", "Burns-Kull Automotive Group and Toyota Motor Sales gave $10,000 to the Cumberland County Technical Education Center for automotive-technology scholarships and equipment.", "county-tech-automotive"],
     ["Community", "2020", "CEO Group Provides Meals for Inspira Health", "The group funded $30,000 in restaurant meals delivered to staff at Inspira's Vineland, Bridgeton, and Elmer hospitals during the pandemic.", "meals-for-inspira"],
-    ["Honors", "2018", "Goya Foods' Unanue Brothers Earn the Spirit of Francis Award", "Bob and Peter Unanue were honored as the CEO Group's One Cumberland campaign delivered $18,000 to the Spirit of Francis fund benefiting Puerto Rico.", "goya-spirit-of-francis"],
-    ["Honors", "", "Lou Magazzu Honored by the NAACP", "Executive Director Louis N. Magazzu was recognized by the NAACP for his service to the community.", "magazzu-naacp"],
     ["Honors", "2020", "Dr. Thomas Dwyer Honored as a Cumberland County Legend", "Premier Orthopaedic's Dr. Thomas A. Dwyer was named a Cumberland County Legend by the CompleteCare Family Health Foundation.", "dwyer-county-legend"],
-    ["Honors", "2018", "Forosisky & Penza Named Italian Heritage Honorees", "Sandra Zagari Forosisky and member Robert A. Penza received the Italian Cultural Foundation of South Jersey's Spirit of Achievement Award.", "italian-heritage"],
-    ["Donation", "2018", "Inspira Receives $50K for the M25 Initiative", "A second $50,000 gift brought funding for the M25 Initiative's Housing First Collaborative to $100,000 to combat chronic homelessness.", "inspira-m25"],
+    ["Honors", "", "Lou Magazzu Honored by the NAACP", "Executive Director Louis N. Magazzu was recognized by the NAACP for his service to the community.", "magazzu-naacp"],
     ["Community", "2019", "Bob Conner Named a Pride in Millville Recipient", "Mints Insurance owner and member Bob Conner received the Greater Millville Chamber of Commerce's 2019 Pride in Millville award.", "conner-pride-millville"],
+    ["Business", "2018", "Rossi Honda Named a 2018 Energy Efficiency Leader", "Rossi Honda of Vineland was one of just 33 U.S. dealerships recognized by Honda's Green Dealer Program for energy performance.", "rossi-honda-energy"],
     ["Community", "2018", "JAWS Youth Playbook Bike Drive", "The CEO Group supported Ron Jaworski's JAWS Youth Playbook and its bike drive for children across the region.", "jaws-bike-drive"],
+    ["Honors", "2018", "Forosisky & Penza Named Italian Heritage Honorees", "Sandra Zagari Forosisky and member Robert A. Penza received the Italian Cultural Foundation of South Jersey's Spirit of Achievement Award.", "italian-heritage"],
     ["Community", "2018", "Sam Sorbello Honors Late Wife in Fight Against Cancer", "Member Sam Sorbello funded the Colleen Sorbello Research Laboratory at the University of New Haven in memory of his late wife.", "sorbello-cancer-research"],
     ["Business", "2018", "Espoma Deepens Its Roots in Millville", "The family-owned organic fertilizer maker opened a new Millville headquarters featuring a 672-plant living green wall.", "espoma-millville"],
+    ["Honors", "2018", "Goya Foods' Unanue Brothers Earn the Spirit of Francis Award", "Bob and Peter Unanue were honored as the CEO Group's One Cumberland campaign delivered $18,000 to the Spirit of Francis fund benefiting Puerto Rico.", "goya-spirit-of-francis"],
+    ["Donation", "2018", "Inspira Receives $50K for the M25 Initiative", "A second $50,000 gift brought funding for the M25 Initiative's Housing First Collaborative to $100,000 to combat chronic homelessness.", "inspira-m25"],
     ["Health", "2018", "Inspira Opens New Detox & Addiction Treatment Unit", "Inspira Health Center Bridgeton dedicated an inpatient acute detox and addiction treatment center serving five counties.", "inspira-detox"],
-    ["Health", "2017", "The Rossi Senior Emergency Department Opens", "The $6 million Rose and Graziano Rossi Senior Emergency Department opened at Inspira Medical Center Vineland, funded in part by member Ron Rossi.", "rossi-senior-ed"],
-    ["Business", "2017", "F&S Produce Purchases the Vineland Progresso Plant", "F&S Produce bought the former Progresso soup plant, a 585,000-square-foot facility, with plans to add dozens of jobs.", "fs-produce-progresso"],
+    ["Donation", "2018", "Toyota of Vineland & RK Auto Donate to County Tech", "Burns-Kull Automotive Group and Toyota Motor Sales gave $10,000 to the Cumberland County Technical Education Center for automotive-technology scholarships and equipment.", "county-tech-automotive"],
     ["Business", "2018", "Landis Square Senior Apartments Open", "Member Hans Lampart opened Landis Square, a 74-unit affordable housing community for seniors in Vineland.", "landis-square"],
     ["Business", "2018", "New Millville Plastics Facility Planned", "A plan to develop a plastics reprocessing facility at the former Wheaton Glass site aimed to create hundreds of jobs.", "millville-plastics"],
-    ["Business", "2018", "Rossi Honda Named a 2018 Energy Efficiency Leader", "Rossi Honda of Vineland was one of just 33 U.S. dealerships recognized by Honda's Green Dealer Program for energy performance.", "rossi-honda-energy"],
-    ["Milestone", "1996", "The CEO Group Is Created to Enhance Area Opportunities", "Founded by Francis J. Reilly, the group united the region's chief executives to advance Cumberland County's prosperity.", "ceo-group-founded"],
-    ["Milestone", "", "CEO Group Raises Over $40,000", "A CEO Group fundraising effort raised more than $40,000 for community causes across the region.", "ceo-group-raises-40000"]
+    ["Business", "2017", "F&S Produce Purchases the Vineland Progresso Plant", "F&S Produce bought the former Progresso soup plant, a 585,000-square-foot facility, with plans to add dozens of jobs.", "fs-produce-progresso"],
+    ["Health", "2017", "The Rossi Senior Emergency Department Opens", "The $6 million Rose and Graziano Rossi Senior Emergency Department opened at Inspira Medical Center Vineland, funded in part by member Ron Rossi.", "rossi-senior-ed"],
+    ["Milestone", "", "CEO Group Raises Over $40,000", "A CEO Group fundraising effort raised more than $40,000 for community causes across the region.", "ceo-group-raises-40000"],
+    ["Milestone", "1996", "The CEO Group Is Created to Enhance Area Opportunities", "Founded by Francis J. Reilly, the group united the region's chief executives to advance Cumberland County's prosperity.", "ceo-group-founded"]
   ];
 
   /* ---------- Data: notable guest speakers ---------- */
@@ -394,6 +394,74 @@
     });
   }
 
+  /* ---------- CTA band particle network ---------- */
+  function initParticles() {
+    var bands = $all(".cta-band"); if (!bands.length) return;
+    var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    bands.forEach(function (band) { particleField(band, still); });
+  }
+
+  function particleField(host, still) {
+    var cv = el("canvas", "cta-particles"); cv.setAttribute("aria-hidden", "true");
+    host.insertBefore(cv, host.firstChild);
+    var ctx = cv.getContext("2d"); if (!ctx) return;
+    var LINK = 130, REPEL = 120, W = 0, H = 0, pts = [], mouse = { x: -1e4, y: -1e4 }, raf = 0, visible = false;
+
+    function spawn() {
+      var a = Math.random() * Math.PI * 2, s = 0.15 + Math.random() * 0.35;
+      return { x: Math.random() * W, y: Math.random() * H, vx: Math.cos(a) * s, vy: Math.sin(a) * s, bx: Math.cos(a) * s, by: Math.sin(a) * s, r: 1 + Math.random() * 1.6 };
+    }
+    function size() {
+      var dpr = Math.min(window.devicePixelRatio || 1, 2), oldW = W, oldH = H;
+      W = host.clientWidth; H = host.clientHeight;
+      cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      // Stretch the existing field to the new size so nothing piles up on an edge
+      if (oldW && oldH) pts.forEach(function (p) { p.x *= W / oldW; p.y *= H / oldH; });
+      var n = Math.max(24, Math.min(110, Math.round(W * H / 9000)));
+      while (pts.length < n) pts.push(spawn());
+      pts.length = n;
+      if (still || !visible) draw();
+    }
+    function step() {
+      pts.forEach(function (p) {
+        var dx = p.x - mouse.x, dy = p.y - mouse.y, d = Math.sqrt(dx * dx + dy * dy);
+        if (d < REPEL && d > 0) { var f = (1 - d / REPEL) * 1.4; p.vx += dx / d * f; p.vy += dy / d * f; }
+        p.vx += (p.bx - p.vx) * 0.05; p.vy += (p.by - p.vy) * 0.05; // ease back to cruising drift
+        p.x += p.vx; p.y += p.vy;
+        if (p.x < 0 || p.x > W) { p.vx = -p.vx; p.bx = -p.bx; p.x = Math.max(0, Math.min(W, p.x)); }
+        if (p.y < 0 || p.y > H) { p.vy = -p.vy; p.by = -p.by; p.y = Math.max(0, Math.min(H, p.y)); }
+      });
+    }
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      ctx.lineWidth = 1;
+      for (var i = 0; i < pts.length; i++) {
+        for (var j = i + 1; j < pts.length; j++) {
+          var dx = pts[i].x - pts[j].x, dy = pts[i].y - pts[j].y, d2 = dx * dx + dy * dy;
+          if (d2 < LINK * LINK) {
+            ctx.strokeStyle = "rgba(255,255,255," + (1 - Math.sqrt(d2) / LINK) * 0.32 + ")";
+            ctx.beginPath(); ctx.moveTo(pts[i].x, pts[i].y); ctx.lineTo(pts[j].x, pts[j].y); ctx.stroke();
+          }
+        }
+      }
+      ctx.fillStyle = "rgba(255,255,255,.6)";
+      pts.forEach(function (p) { ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill(); });
+    }
+    function loop() { step(); draw(); raf = visible ? requestAnimationFrame(loop) : 0; }
+
+    size();
+    if ("ResizeObserver" in window) new ResizeObserver(size).observe(host);
+    else window.addEventListener("resize", size);
+    if (still) return; // reduced motion: a static constellation, no drift or repel
+
+    host.addEventListener("pointermove", function (e) { var r = cv.getBoundingClientRect(); mouse.x = e.clientX - r.left; mouse.y = e.clientY - r.top; });
+    host.addEventListener("pointerleave", function () { mouse.x = mouse.y = -1e4; });
+    function setVisible(v) { visible = v; if (v && !raf) raf = requestAnimationFrame(loop); }
+    if ("IntersectionObserver" in window) new IntersectionObserver(function (en) { setVisible(en[0].isIntersecting); }).observe(host);
+    else setVisible(true);
+  }
+
   /* ---------- Behaviors ---------- */
   function initNav() {
     var nav = $("#nav");
@@ -456,6 +524,7 @@
     renderNotable();
     renderSpeakers();
     renderGalleries();
+    initParticles();
     initNav();
     initCount();
     initForm();

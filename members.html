@@ -57,6 +57,32 @@
   </div>
 </section>
 
+<section class="directory" id="directory">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Member directory</span>
+      <h2>Who's at the table</h2>
+      <p>The executives who make up The CEO Group's current membership, listed alphabetically. Search by name, company, or town.</p>
+    </div>
+    <div class="dir-tools reveal">
+      <label class="dir-search">
+        <span class="sr-only">Search members</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input type="search" id="rosterSearch" placeholder="Search by name, company, or town" autocomplete="off" />
+      </label>
+      <span class="dir-count" id="rosterCount" aria-live="polite"></span>
+    </div>
+    <div class="dir-table-wrap">
+      <table class="dir-table">
+        <caption class="sr-only">The CEO Group member directory</caption>
+        <thead><tr><th scope="col">Member</th><th scope="col">Company</th><th scope="col">Town</th></tr></thead>
+        <tbody id="rosterBody"></tbody>
+      </table>
+      <p class="dir-empty" id="rosterEmpty" hidden>No members match that search.</p>
+    </div>
+  </div>
+</section>
+
 <section class="pillars">
   <div class="wrap">
     <div class="section-head center reveal">

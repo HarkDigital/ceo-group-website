@@ -34,7 +34,7 @@ Built as a fast, dependency-free static site (HTML + CSS + vanilla JS) in The CE
     └── photos/           # event gallery images
 ```
 
-The shared header, footer, navigation, member wall, charitable-giving timeline, speaker roster, and photo galleries are driven from `assets/js/site.js`, so content updates happen in one place.
+The shared header, footer, navigation, member wall, member directory, charitable-giving timeline, speaker roster, and photo galleries are driven from `assets/js/site.js`, so content updates happen in one place.
 
 ## Local preview
 

@@ -75,6 +75,72 @@
     "Bradway Trucking, Inc.": "http://www.bradwaytrucking.com/"
   };
 
+  /* ---------- Data: member directory ---------- [name, company, town, note] (from the Nov 2025 member list) */
+  var ROSTER = [
+    ["Richard Allen", "Allen Associates", "Vineland"],
+    ["John Barretta", "Barretta Plumbing, Heating, Cooling", "Vineland"],
+    ["Stephen Barse, Esq.", "Law Office of Stephen D. Barse, LLC", "Vineland"],
+    ["Sharon Baxter", "", "Vineland", "Honorary member"],
+    ["Melvin Bradway", "Bradway Trucking, Inc.", "Vineland", "Honorary member"],
+    ["Thomas Brady", "Industrial Packaging, Inc.", "Millville"],
+    ["Serge Brunner", "The Espoma Co.", "Millville"],
+    ["Sharon Bruno", "Creative Achievement Academy, Inc.", "Vineland", "Honorary member"],
+    ["Brett Buonadonna", "Integrity Wealth Group", "Vineland"],
+    ["David Catalana", "Innovation Foods LLC", "Millville"],
+    ["Bob Conner", "Mints Insurance", "Millville"],
+    ["Gerald Covella", "Clarity Partners Business Coaching", "Vineland"],
+    ["David Cresenzo", "Utopia Salon & Spa", "Vineland"],
+    ["Fred Cristelli", "Lawn & Garden Landscaping, LLC", "Vineland"],
+    ["Anthony DiFabio", "Acenda Health", "Glassboro"],
+    ["Christy DiLeonardo", "Cumberland Salem Cape May Workforce Development Board", "Vineland"],
+    ["Dr. Tom Dwyer", "Premier Orthopaedic Associates", "Vineland"],
+    ["Anthony Fanucci", "AR Fanucci", "Vineland"],
+    ["Donald Fauerbach", "The Green Flag Committee, Inc.", "Millville"],
+    ["Al Fisher", "OceanFirst Bank", "Vineland"],
+    ["Josh Fisher", "B&B Poultry", "Norma"],
+    ["Evan Forosisky", "Astra Service Partners", "Vineland"],
+    ["Gary Forosisky", "GE Mechanical", "Vineland"],
+    ["Jeff Francesconi", "Capital Concrete", "Elmer"],
+    ["Ken Freitag", "Freitag Funeral Home", "Bridgeton"],
+    ["Sal Gaetano", "FIA Group, Inc.", "Newfield"],
+    ["David Gentilini", "Compass Wire Cloth", "Vineland"],
+    ["Kevin Gibala", "TD Bank", "Vineland"],
+    ["Will Gruccio", "Renati Solutions, LLC", "Vineland"],
+    ["David Hanrahan", "Century Savings Bank", "Vineland"],
+    ["Ron Jaworski", "Running Deer Golf Club", "West Deptford"],
+    ["Phil Kelley", "Chick-fil-A", "Mullica Hill"],
+    ["Hans Lampart", "Eastern Pacific Development", "Vineland"],
+    ["Ben Laury", "Ben's Professional Service", "Vineland"],
+    ["Maria LeBlanc, Ed.D.", "Cumberland County Education Foundation", "Vineland"],
+    ["Skip Luisi", "DeMarco Luisi Funeral Home", "Vineland"],
+    ["Lou Magazzu", "Louis N. Magazzu, LLC", "Vineland", "Executive Director"],
+    ["Jonathan Mangel", "Mamacita, Inc.", "Vineland"],
+    ["Amy Mansue", "Inspira Medical Centers, Inc.", "Mullica Hill"],
+    ["Timothy Martine", "D&R Landscaping", "Vineland"],
+    ["Robert D. McCormick", "Toyota of Vineland", "Vineland"],
+    ["Patrick McGrory", "Liberty Point Advisors", "Vineland"],
+    ["Mark Mosley", "PCS", "Vineland"],
+    ["William J. Nardelli", "Nardelli Bros., Inc.", "Cedarville"],
+    ["Arthur J. Ogren Jr.", "Arthur J. Ogren, Inc.", "Vineland"],
+    ["Robert A. Penza", "Samuel Coraluzzo / Torrissi Transport", "Hammonton"],
+    ["Donna Perez", "Wells Fargo Advisors", "Vineland"],
+    ["Herbert Pierce", "Piercetek", "Vineland"],
+    ["Sam Pipitone", "F&S Fresh Foods", "Vineland"],
+    ["Samuel Previtera", "Taylor, Wiseman & Taylor", "Vineland"],
+    ["Kenny Pustizzi", "Magic Carpet Transportation", "Vineland"],
+    ["Dr. Brendan Rickards", "Rowan College of South Jersey", "Vineland"],
+    ["Bruce Riley", "Ultra Clean Technologies Corp.", "Bridgeton"],
+    ["Paul J. Ritter III", "Cumberland Insurance Group", "Bridgeton"],
+    ["Ronald G. Rossi", "Rossi Motors, Inc.", "Vineland", "Honorary member"],
+    ["Ed Roth", "Tower Hospitality, LLC", "Vineland"],
+    ["John Ruga", "Northeast Precast", "Vineland"],
+    ["Kim Schalek", "Salmon Ventures LTD", "Millville"],
+    ["David Surdam", "Chemglass Life Sciences", "Vineland"],
+    ["Gerard Velazquez", "Cumberland County Improvement Authority", "Millville"],
+    ["Mike Vertolli", "ComTec Systems", "Vineland"],
+    ["Deborah A. Wallace", "OakGrove Investments", "Vineland"]
+  ];
+
   /* ---------- Data: charitable giving timeline ---------- */
   var IMPACT = [
     ["2020-21", "<b>$25,000</b> to the “School Counts!” scholarship program at the Cumberland County Campus Educational Foundation, Rowan College of South Jersey."],
@@ -123,12 +189,17 @@
     ["2006, 2009, 2014, 2018", "Stephen M. Sweeney", "NJ Senate President"],
     ["1997, 2001, 2003, 2008, 2012, 2014", "Frank A. LoBiondo", "U.S. Congressman, 2nd District"],
     ["2017", "Kim Guadagno", "Lt. Governor of New Jersey"],
-    ["2002, 2006, 2018, 2019, 2020", "Jeff Van Drew", "U.S. Congressman / NJ State Senator"]
+    ["2002, 2006, 2018–2021, 2025", "Jeff Van Drew", "U.S. Congressman / NJ State Senator"]
   ];
 
   /* ---------- Data: guest speakers by year ---------- */
   var SPEAKERS = [
-    ["2020", ["Sen. Jeff Van Drew", "Sen. Michael Testa Jr.", "Assemblymen Simonson & McClellan", "Deputy Speaker John Burzichelli", "Corinne Kolesinskas — JAWS Youth Playbook", "Paul Lambrecht — Inspira", "Dr. Michael Corrado"]],
+    ["2025", ["Donna Perez, Dave Hanrahan & Brett Buonadonna — Economic outlook panel, moderated by Pat McGrory", "U.S. Rep. Jeff Van Drew", "Cumberland County Superintendents — Education update", "Christina Renna — CEO, Chamber of Commerce Southern New Jersey", "Dr. Ali Houshmand — President, Rowan University (CEO Speaker Series)", "Democratic Candidates", "Republican Candidates"]],
+    ["2024", ["Cumberland & Salem County Officials — Broadband discussion", "Cumberland County Officials — Broadband update", "Dan Hilferty — CEO, Philadelphia Flyers", "Cumberland County Commissioners & County Clerk", "Ryan Peters — Patriot Fund"]],
+    ["2023", ["Gary DeVicci — CPI Planning", "Jeff McFadden — CEO, Union League of Philadelphia", "Chris Gheysens — CEO, Wawa", "Mark Tabakin, Steve Edelstein, Jay McDaniel & Amy Gould — Weiner Law Group"]],
+    ["2022", ["Christina Renna — Chamber of Commerce Southern New Jersey", "Joe Devine & Rich Miller — Leadership", "Inspira Health & Miss New Jersey", "Ed Breen", "Joe Sileo & Darlene Barber — Cumberland County Commissioners", "Gary DeVicci — Legacy expert, 9 & Dine event", "County Superintendents — Educational update"]],
+    ["2021", ["Amy Mansue — CEO, Inspira Health (via Zoom)", "Stephen Barse & Alison DiFlorio — “The Impact of COVID in the Workplace Going Forward” (via Zoom)", "U.S. Rep. Jeff Van Drew", "Jack Ciattarelli", "Dr. Geri Utter"]],
+    ["2020", ["Stephen Barse — Gruccio Pepper Law Firm", "Sen. Jeff Van Drew", "Sen. Michael Testa Jr.", "Assemblymen Simonson & McClellan", "Deputy Speaker John Burzichelli", "Corinne Kolesinskas — JAWS Youth Playbook", "Paul Lambrecht — Inspira", "Dr. Michael Corrado"]],
     ["2019", ["Bob Carr", "Dr. Fred Keating — Rowan College", "Donna Perez", "Freeholder Director Joe Derella", "Mayor Anthony Fanucci", "Mayor Albert Kelly", "Tom Raftery — Falcon Consulting", "Sen. Jeff Van Drew"]],
     ["2018", ["Dr. Yves Salomon-Fernandez — Cumberland County College", "Dr. Dina Elliott — CC Technical School", "Anthony Mongeluzo — PCS", "Joe Derella — Freeholder Director", "Fred Sorbello & Sam Pipitone", "Senate President Steve Sweeney", "Sen. Jeff Van Drew", "Mayor Frank Gilliam — Atlantic City", "Joey Jingoli — Hard Rock Casino", "Stephen Barse — Gruccio Pepper", "Ren Cicalese III & Julie Strohlein — Alloy Silverstein", "Dan Lyons & John King — Team Concepts"]],
     ["2017", ["John D'Angelo — Inspira Health", "Rob Monaco — Garden State Investments", "Dr. Yves Salomon-Fernandez — CCC", "Dr. Dina Rossi-Elliott — CCTEC", "Dave Hanrahan — Capital Bank", "Jeff George — Merrill Lynch", "Gerard Velazquez — CCIA", "Lt. Gov. Kim Guadagno"]],
@@ -190,6 +261,29 @@
     if (grid) MEMBERS.forEach(function (m) { grid.appendChild(buildCell(m)); });
     var track = $("#logoTrack"); // home carousel: duplicate the set for a seamless loop
     if (track) MEMBERS.concat(MEMBERS).forEach(function (m) { track.appendChild(buildCell(m)); });
+  }
+
+  function renderRoster() {
+    var body = $("#rosterBody"); if (!body) return;
+    var search = $("#rosterSearch"), count = $("#rosterCount"), empty = $("#rosterEmpty");
+    var rows = ROSTER.map(function (m) {
+      var tr = el("tr");
+      var name = el("td", "dir-name"); name.textContent = m[0];
+      if (m[3]) name.appendChild(el("span", "dir-tag", m[3]));
+      var co = el("td", "dir-co" + (m[1] ? "" : " is-empty")); co.textContent = m[1] || "—";
+      var town = el("td", "dir-town"); town.textContent = m[2] + ", NJ";
+      tr.appendChild(name); tr.appendChild(co); tr.appendChild(town);
+      body.appendChild(tr);
+      return { tr: tr, text: m.join(" ").toLowerCase() };
+    });
+    function filter() {
+      var q = search ? search.value.trim().toLowerCase() : "", shown = 0;
+      rows.forEach(function (r) { var hit = !q || r.text.indexOf(q) > -1; r.tr.hidden = !hit; if (hit) shown++; });
+      if (count) count.textContent = shown === rows.length ? rows.length + " members" : "Showing " + shown + " of " + rows.length + " members";
+      if (empty) empty.hidden = shown > 0;
+    }
+    if (search) search.addEventListener("input", filter);
+    filter();
   }
 
   function renderTimeline() {
@@ -356,6 +450,7 @@
   /* ---------- Boot ---------- */
   function boot() {
     renderMembers();
+    renderRoster();
     renderTimeline();
     renderNews();
     renderNotable();

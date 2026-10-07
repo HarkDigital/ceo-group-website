@@ -471,8 +471,12 @@
     }
     var ham = $("#hamburger");
     if (ham) {
+      var closeMenu = function () { document.body.classList.remove("menu-open"); ham.setAttribute("aria-expanded", false); };
       ham.addEventListener("click", function () { var o = document.body.classList.toggle("menu-open"); ham.setAttribute("aria-expanded", o); });
-      $all("#menu a").forEach(function (a) { a.addEventListener("click", function () { document.body.classList.remove("menu-open"); ham.setAttribute("aria-expanded", false); }); });
+      $all("#menu a").forEach(function (a) { a.addEventListener("click", closeMenu); });
+      // Tapping the dimmed page or pressing Escape also closes the menu
+      document.addEventListener("click", function (e) { if (document.body.classList.contains("menu-open") && !e.target.closest("#menu, #hamburger")) closeMenu(); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeMenu(); });
     }
   }
 

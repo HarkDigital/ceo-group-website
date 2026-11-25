@@ -225,19 +225,19 @@
 
   /* ---------- Data: photo galleries ---------- */
   var GALLERIES = [
-    ["golf2025", "18th Annual Reilly Memorial Golf Tournament", "2025 · Golf", ["golf2025-1.png", "golf2025-2.jpg", "golf2025-3.jpg", "golf2025-4.jpg", "golf2025-5.jpg", "golf2025-6.jpg"]],
-    ["golf2020", "CEO Golf Tournament", "2020 · Golf", ["golf2020-1.jpg", "golf2020-2.jpg", "golf2020-3.jpg", "golf2020-4.jpg", "golf2020-5.jpg", "golf2020-6.jpg"]],
-    ["golf2019", "CEO Golf Tournament", "2019 · Golf", ["golf2019-1.jpg", "golf2019-2.jpg", "golf2019-3.jpg", "golf2019-4.jpg", "golf2019-5.jpg", "golf2019-6.jpg"]],
-    ["golf2018", "Annual Golf Outing", "2018 · Golf", ["golf2018-1.png", "golf2018-2.jpg", "golf2018-3.jpg", "golf2018-4.jpg", "golf2018-5.jpg", "golf2018-6.jpg"]],
-    ["golf2017", "Annual Golf Outing", "2017 · Golf", ["golf2017-1.png", "golf2017-2.jpg", "golf2017-3.jpg", "golf2017-4.jpg", "golf2017-5.jpg", "golf2017-6.jpg"]],
-    ["golf2016", "Annual Golf Outing", "2016 · Golf", ["golf2016-1.jpg", "golf2016-2.jpg", "golf2016-3.jpg", "golf2016-4.jpg", "golf2016-5.jpg", "golf2016-6.jpg"]],
-    ["golf2015", "Annual Golf Outing", "2015 · Golf", ["golf2015-1.jpg", "golf2015-2.jpg", "golf2015-3.jpg", "golf2015-4.jpg", "golf2015-5.jpg", "golf2015-6.jpg"]],
-    ["golf2014", "Annual Golf Outing", "2014 · Golf", ["golf2014-1.jpg", "golf2014-2.jpg", "golf2014-3.jpg", "golf2014-4.jpg", "golf2014-5.jpg", "golf2014-6.jpg"]],
-    ["legacy2017", "Legacy Night", "2017 · Social", ["legacy2017-1.jpg", "legacy2017-2.jpg", "legacy2017-3.jpg", "legacy2017-4.jpg", "legacy2017-5.jpg", "legacy2017-6.jpg"]],
-    ["xmas2018", "Holiday Christmas Party", "2018 · Social", ["xmas2018-1.png", "xmas2018-2.jpg", "xmas2018-3.jpg", "xmas2018-4.jpg", "xmas2018-5.jpg", "xmas2018-6.jpg"]],
-    ["xmas2017", "Holiday Christmas Party", "2017 · Social", ["xmas2017-1.png", "xmas2017-2.jpg", "xmas2017-3.jpg", "xmas2017-4.jpg", "xmas2017-5.jpg", "xmas2017-6.jpg"]],
-    ["xmas2015", "Holiday Christmas Party", "2015 · Social", ["xmas2015-1.jpg", "xmas2015-2.jpg", "xmas2015-3.jpg", "xmas2015-4.jpg", "xmas2015-5.jpg", "xmas2015-6.jpg"]],
-    ["landis2018", "Landis Square Senior Apartments", "2018 · Community", ["landis2018-1.jpg", "landis2018-2.jpg", "landis2018-3.jpg", "landis2018-4.jpg", "landis2018-5.jpg", "landis2018-6.jpg"]]
+    ["golf2025", "18th Annual Reilly Memorial Golf Tournament", "2025 · Golf", ["golf2025-2.jpg", "golf2025-3.jpg", "golf2025-4.jpg", "golf2025-5.jpg", "golf2025-6.jpg"]],
+    ["golf2020", "CEO Golf Tournament", "2020 · Golf", ["golf2020-2.jpg", "golf2020-3.jpg", "golf2020-4.jpg", "golf2020-5.jpg", "golf2020-6.jpg"]],
+    ["golf2019", "CEO Golf Tournament", "2019 · Golf", ["golf2019-2.jpg", "golf2019-3.jpg", "golf2019-4.jpg", "golf2019-5.jpg", "golf2019-6.jpg"]],
+    ["golf2018", "Annual Golf Outing", "2018 · Golf", ["golf2018-2.jpg", "golf2018-3.jpg", "golf2018-4.jpg", "golf2018-5.jpg", "golf2018-6.jpg"]],
+    ["golf2017", "Annual Golf Outing", "2017 · Golf", ["golf2017-3.jpg", "golf2017-4.jpg", "golf2017-5.jpg", "golf2017-6.jpg"]],
+    ["golf2016", "Annual Golf Outing", "2016 · Golf", ["golf2016-2.jpg", "golf2016-3.jpg", "golf2016-4.jpg", "golf2016-5.jpg", "golf2016-6.jpg"]],
+    ["golf2015", "Annual Golf Outing", "2015 · Golf", ["golf2015-2.jpg", "golf2015-3.jpg", "golf2015-4.jpg", "golf2015-5.jpg", "golf2015-6.jpg"]],
+    ["golf2014", "Annual Golf Outing", "2014 · Golf", ["golf2014-2.jpg", "golf2014-3.jpg", "golf2014-4.jpg", "golf2014-5.jpg", "golf2014-6.jpg"]],
+    ["legacy2017", "Legacy Night", "2017 · Social", ["legacy2017-2.jpg", "legacy2017-3.jpg", "legacy2017-4.jpg", "legacy2017-5.jpg", "legacy2017-6.jpg"]],
+    ["xmas2018", "Holiday Christmas Party", "2018 · Social", ["xmas2018-2.jpg", "xmas2018-3.jpg", "xmas2018-4.jpg", "xmas2018-5.jpg", "xmas2018-6.jpg"]],
+    ["xmas2017", "Holiday Christmas Party", "2017 · Social", ["xmas2017-3.jpg", "xmas2017-4.jpg", "xmas2017-5.jpg", "xmas2017-6.jpg"]],
+    ["xmas2015", "Holiday Christmas Party", "2015 · Social", ["xmas2015-2.jpg", "xmas2015-3.jpg", "xmas2015-4.jpg", "xmas2015-5.jpg", "xmas2015-6.jpg"]],
+    ["landis2018", "Landis Square Senior Apartments", "2018 · Community", ["landis2018-2.jpg", "landis2018-3.jpg", "landis2018-4.jpg", "landis2018-5.jpg", "landis2018-6.jpg"]]
   ];
 
   /* ---------- Helpers ---------- */
